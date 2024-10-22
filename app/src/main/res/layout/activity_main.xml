@@ -15,6 +15,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="150sp"
+            android:contentDescription="@string/machine_choice_imageDescription"
             android:src="@drawable/rock"
             android:id="@+id/choice_machine"/>
         <TextView
@@ -29,6 +30,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="150sp"
+            android:contentDescription="@string/user_choice_imageDescription"
             android:src="@drawable/rock"
             android:id="@+id/choice_user"/>
         <TextView
@@ -78,16 +80,19 @@
             <ImageView
                 android:layout_width="130sp"
                 android:layout_height="wrap_content"
+                android:contentDescription="@string/rock"
                 android:src="@drawable/rock"
                 android:id="@+id/choice_rock"/>
             <ImageView
                 android:layout_width="130sp"
                 android:layout_height="wrap_content"
+                android:contentDescription="@string/paper"
                 android:src="@drawable/paper"
                 android:id="@+id/choice_paper"/>
             <ImageView
                 android:layout_width="130sp"
                 android:layout_height="wrap_content"
+                android:contentDescription="@string/scissors"
                 android:src="@drawable/scissors"
                 android:id="@+id/choice_scissors"/>
         </LinearLayout>

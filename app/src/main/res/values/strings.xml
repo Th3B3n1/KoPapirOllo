@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">KoPapirOllo</string>
+    <string name="app_name">Kő Papír Olló</string>
     <string name="your_choice">A te választásod</string>
     <string name="machine_choice">A gép választása</string>
     <string name="user_0">Ember: 0</string>
@@ -8,4 +8,9 @@
     <string name="machine">"Gép: "</string>
     <string name="draft_0">Döntetlen: 0</string>
     <string name="draft">"Döntetlen: "</string>
+    <string name="machine_choice_imageDescription">Gép választása</string>
+    <string name="user_choice_imageDescription">A te választásod</string>
+    <string name="rock">Kő</string>
+    <string name="paper">Papír</string>
+    <string name="scissors">Olló</string>
 </resources>

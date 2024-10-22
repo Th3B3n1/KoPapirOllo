@@ -114,10 +114,12 @@ public class MainActivity extends AppCompatActivity {
     private void createDialog(String title)
     {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setCancelable(false);
         builder.setTitle(title);
         builder.setMessage("Szeretnél új játékot játszani?");
         builder.setPositiveButton("Igen", (dialogInterface, i) -> Reset());
         builder.setNegativeButton("Nem", (dialogInterface, i) -> finish());
+        builder.create();
         builder.show();
     }
 
